@@ -1,0 +1,20 @@
+* {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    color: white;
+}
+body {
+    background-image: url("tp_bg.jpg");
+}
+h1 {
+    letter-spacing: 10px;
+    font-weight: bolder;
+}
+h2 {
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+.audioToggle {
+    
+}

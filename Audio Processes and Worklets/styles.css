@@ -1,0 +1,52 @@
+*, body {
+    font-family: 'Jura', sans-serif;
+    background: hsl(220deg, 40%, 90%);
+}
+#indLED {
+    position: fixed;
+    background: rgb(206, 6, 6);
+    border: 2px solid black;
+    border-radius: 100%;
+    right: 10vw;
+    top: 5vh;
+    width: 2vw;
+    height: 2vw;
+    box-shadow: 0 0 10px 10px hsl(60deg, 50%, 80%);
+}
+h1 {
+    text-align: center;
+    font-size: 250%;
+}
+hr {
+    height: 5px;
+    border-radius: 100%;
+    background: black;
+}
+#audioStart {
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    border-radius: 40%;
+    border: 3px solid rgb(85, 64, 154);
+    background: rgba(24, 93, 60, 0.3);
+    font-size:100%;
+    transition: 0.1s ease;
+    box-shadow: 0 0 5px 5px hsl(60deg, 40%, 80%);
+    font-weight: bold;
+}
+#audioStart:hover {
+
+    border-radius: 20%;
+    background: hsla(20deg, 80%, 30%, 30%);
+    border: 5px solid hsl(170deg, 80%, 30%);
+    box-shadow: 0 0 10px 10px hsl(60deg, 40%, 80%);
+
+
+}
+.container {
+    margin:auto;
+    top:3vh;
+    position: relative;
+    width: 30vw;
+    height: 20vw;
+}

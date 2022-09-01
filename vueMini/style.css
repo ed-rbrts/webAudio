@@ -1,0 +1,40 @@
+* {
+    font-family: 'Zen Kurenaido', sans-serif;
+    background: hsl(220deg, 50%, 80%);
+    text-align: center;
+    letter-spacing: 20px;
+}
+hr {
+    height: 6px;
+    background: black;
+    border-radius: 50%;
+}
+p {
+    letter-spacing: normal;
+    font-size: 20px;
+}
+button {
+    letter-spacing: normal;
+    background: hsl(170deg, 70%, 60%);
+    font-size: 24px;
+    margin: auto;
+    padding: 4%;
+    border-radius: 30%;
+    border: 4px solid hsl(160deg, 50%, 80%);
+    box-shadow: 0 0 14px 4px hsl(170deg, 50%, 50%); 
+    transition: 0.2s ease;    
+       
+}
+.btn-hover {
+    background: hsla(172deg, 20%, 68%, 0.5);
+    font-size: 32px;
+    border: 8px solid hsl(200deg, 60%, 50%);
+    box-shadow: 0 0 20px 7px hsl(190deg, 80%, 60%);
+    border-radius: 10%;
+    padding: 5%;
+}
+mainD {
+    position: absolute;
+    left: 40vw;
+    top: 50vh;
+}
